@@ -65,3 +65,69 @@ ul {
   justify-content: center;
   align-items: center;
 }
+
+.box-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1f2937;
+}
+
+.sign-up {
+  color: white;
+  width: 360px;
+}
+
+.sign-up-button {
+  color: white;
+  background-color: #3882f6;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100px;
+}
+
+.image-div {
+  width: 360px;
+  height: 180px;
+  background-color: grey;
+}
+
+.box-two {
+  width: 100%;
+  height: 100%;
+}
+
+.information-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  padding: 25px;
+}
+.box-twoh3 {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.mockBox {
+  width: 50px;
+  height: 80px;
+  border: 1px solid #3882f6;
+  border-radius: 5px;
+  padding: 70px;
+}
