@@ -1,0 +1,194 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///Users/nekko/Desktop/Odin%20Project/landing-page/index.html
+Subject: landing page
+Date: Sat, 2 Dec 2023 15:53:09 -0600
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--7LWAr9R7DGrNUmsoe3P9QcymjSIfUXmrqXd1HjFY7v----"
+
+
+------MultipartBoundary--7LWAr9R7DGrNUmsoe3P9QcymjSIfUXmrqXd1HjFY7v----
+Content-Type: text/html
+Content-ID: <frame-DB93E9C8735D0E385D9035BFA9C9473F@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///Users/nekko/Desktop/Odin%20Project/landing-page/index.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+   =20
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <link rel=3D"stylesheet" href=3D"file:///Users/nekko/Desktop/Odin%20Pro=
+ject/landing-page/style.css">
+    <title>landing page</title>
+  </head>
+  <body>
+    <div class=3D"header">
+      <div class=3D"header-top">
+        <div class=3D"header-logo">Header Logo</div>
+        <div class=3D"Header-links">
+          <ul>
+            <li><a href=3D"file:///Users/nekko/Desktop/Odin%20Project/landi=
+ng-page/index.html#">Header link one</a></li>
+            <li><a href=3D"file:///Users/nekko/Desktop/Odin%20Project/landi=
+ng-page/index.html#">Header link two</a></li>
+            <li><a href=3D"file:///Users/nekko/Desktop/Odin%20Project/landi=
+ng-page/index.html#">header link three</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class=3D"box-one">
+        <div class=3D"sign-up">
+          <h3>This Website is Awesome!</h3>
+          <p>
+            This website has some subtext that goes here under the main tit=
+le.
+            It's smaller font and the color is lower contrast.
+          </p>
+          <button class=3D"sign-up-button">Sign up</button>
+        </div>
+        <div class=3D"image-div">
+          <img src=3D"file:///Users/nekko/Desktop/Odin%20Project/landing-pa=
+ge/index.html">
+        </div>
+      </div>
+    </div>
+    <div class=3D"content">
+      <div class=3D"box-two">
+        <h3 class=3D"box-twoh3">Some Random Information</h3>
+        <div class=3D"information-container">
+          <div class=3D"img-container">
+            <div class=3D"mockBox"></div>
+            <p>This is some subtext under an illustration image</p>
+          </div>
+          <div class=3D"img-container">
+            <div class=3D"mockBox"></div>
+            <p>This is some subtext under an illustration image</p>
+          </div>
+          <div class=3D"img-container">
+            <div class=3D"mockBox"></div>
+            <p>This is some subtext under an illustration image</p>
+          </div>
+          <div class=3D"img-container">
+            <div class=3D"mockBox"></div>
+            <p>This is some subtext under an illustration image</p>
+          </div>
+        </div>
+      </div>
+      <div class=3D"box-three">
+        <div class=3D"quote">
+          <p>
+            This is an inspiring quote, or testimonial from a customer. May=
+be it
+            just filling up space, or maybe people will actually read it? a=
+ll I
+            know is it looks nice
+          </p>
+          <b class=3D"quote-author">- nek</b>
+        </div>
+      </div>
+      <div class=3D"box-four">
+        <div class=3D"sign-up-box">
+          <div class=3D"sign-up-left">
+            <p class=3D"sign-up-text">Call to action its time!</p>
+            <p class=3D"sign-up-subtext">Sign up for a product by clicking =
+that button over there!</p></div>    =20
+            <p></p>
+            <button class=3D"sign-up-button">Sign up</button>
+          </div>
+        </div>
+      </div>
+   =20
+    <div class=3D"footer">Copyright =C2=A9=EF=B8=8F Nek and Odin Project 20=
+23</div>
+ =20
+
+</body></html>
+------MultipartBoundary--7LWAr9R7DGrNUmsoe3P9QcymjSIfUXmrqXd1HjFY7v----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///Users/nekko/Desktop/Odin%20Project/landing-page/style.css
+
+@charset "utf-8";
+
+* { font-family: sans-serif; }
+
+body { height: 100vh; overflow: hidden; margin: 0px; display: flex; flex-di=
+rection: column; }
+
+.header, .footer { display: flex; padding: 16px; }
+
+.header { flex-direction: column; }
+
+.header-top { display: flex; justify-content: space-between; }
+
+.header { display: flex; justify-content: space-between; color: white; back=
+ground-color: rgb(31, 41, 55); }
+
+.footer { display: flex; justify-content: center; align-items: center; font=
+-size: 10px; color: white; background-color: rgb(31, 41, 55); }
+
+.content { flex-grow: 1; display: flex; flex-direction: column; justify-con=
+tent: center; align-items: center; }
+
+a { text-decoration: none; color: white; }
+
+ul { list-style-type: none; display: flex; flex-direction: row; gap: 16px; =
+}
+
+.header-logo { display: flex; justify-content: center; align-items: center;=
+ }
+
+.header-links { display: flex; flex-direction: row; justify-content: center=
+; align-items: center; }
+
+.box-one { display: flex; align-items: center; justify-content: center; pad=
+ding: 50px; margin-left: 100px; margin-right: 100px; gap: 10px; }
+
+.sign-up { color: white; width: 360px; }
+
+.sign-up-button { color: white; background-color: rgb(56, 130, 246); border=
+: 0px; padding: 10px; border-radius: 5px; width: 100px; }
+
+.image-div { width: 360px; height: 180px; background-color: grey; }
+
+.box-two { width: 100%; height: 100%; }
+
+.information-container { display: flex; flex-direction: row; justify-conten=
+t: center; align-items: center; gap: 25px; margin-bottom: 50px; }
+
+.img-container { display: flex; flex-direction: column; justify-content: ce=
+nter; align-items: center; text-align: center; width: 150px; height: 150px;=
+ padding: 25px; }
+
+.box-twoh3 { margin-top: 25px; margin-bottom: 50px; text-align: center; }
+
+.mockBox { width: 50px; height: 80px; border: 1px solid rgb(56, 130, 246); =
+border-radius: 5px; padding: 70px; }
+
+.box-three { display: flex; justify-content: center; align-items: center; w=
+idth: 100%; height: 100%; text-align: center; background-color: rgb(229, 23=
+1, 235); }
+
+.quote { display: flex; align-items: center; justify-content: center; flex-=
+direction: column; width: 50%; height: 50%; }
+
+.quote-author { margin-left: 500px; }
+
+.box-four { display: flex; justify-content: center; align-items: center; wi=
+dth: 100%; height: 100%; }
+
+.sign-up-box { display: flex; justify-content: space-around; width: 650px; =
+height: 100px; background-color: rgb(56, 130, 246); border-radius: 15px; }
+
+.sign-up-left { display: flex; flex-direction: column; color: white; margin=
+: 0px 0px 0px 10px; font-weight: bold; }
+
+.sign-up-text { margin-bottom: 0px; font-size: 20px; }
+
+.sign-up-subtext { margin: 0px; font-size: 15px; font-weight: 200; }
+
+.sign-up-button-two { color: white; background-color: rgb(56, 130, 246); pa=
+dding: 10px; border-radius: 5px; width: 100px; border: 5px solid white; }
+------MultipartBoundary--7LWAr9R7DGrNUmsoe3P9QcymjSIfUXmrqXd1HjFY7v------
